@@ -72,7 +72,7 @@ if __name__ == '__main__':
         sum_recursion = 0
         max_recursion = 0
         min_recursion = 9999999
-        for j in range(0, 1):
+        for j in range(0, 20):
 
             arr = []
             arr = generation(arr, length_list[i], gener_type)
