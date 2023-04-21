@@ -197,26 +197,3 @@ class BinomialHeap:
         # Объединяем новую кучу с оставшимися кучами.
         self.head = self._union(heap).head
         return min_node
-
-if __name__ == '__main__':
-    # создаем пустую кучу
-    heap = BinomialHeap()
-
-    heap.insert(5)
-    heap.insert(7)
-    heap.insert(2)
-    heap.insert(9)
-    heap.insert(4)
-    heap.insert(6)
-
-    print(heap.get_min())
-    heap.delete_min()
-    print(heap.get_min())
-    heap.delete_min()
-    print(heap.get_min())
-
-
-
-
-
-
